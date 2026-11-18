@@ -1,450 +1,170 @@
 
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taste of Taiwan | Local Food Tours</title>
-
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-
     <header>
         <nav class="navbar md:navbar-expand bg-1 fg-2">
             <div class="container-fluid">
-
-                <a class="navbar-brand" href="index.html">
-                    Taste of Taiwan
-                </a>
-
-                <button class="btn-icon navbar-toggler"
-                        type="button"
-                        data-bs-toggle="drawer"
-                        data-bs-target="#navbarNavMenu"
-                        aria-controls="navbarNavMenu"
-                        aria-expanded="false"
-                        aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"
-                          aria-hidden="true"></span>
+                <a class="navbar-brand" href="index.html">Taste of Taiwan</a>
+                <button class="btn-icon navbar-toggler" type="button" data-bs-toggle="drawer" data-bs-target="#navbarNavMenu" aria-controls="navbarNavMenu" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon" aria-hidden="true"></span>
                 </button>
-
-                <dialog class="drawer drawer-end"
-                        tabindex="-1"
-                        id="navbarNavMenu"
-                        aria-labelledby="navbarNavMenuLabel">
-
+                <dialog class="drawer drawer-end" tabindex="-1" id="navbarNavMenu" aria-labelledby="navbarNavMenuLabel">
                     <div class="drawer-header">
-                        <h2 class="drawer-title" id="navbarNavMenuLabel">
-                            Menu
-                        </h2>
-                        <button type="button"
-                                class="btn-close"
-                                data-bs-dismiss="drawer"
-                                aria-label="Close">
-                        </button>
+                        <h2 class="drawer-title" id="navbarNavMenuLabel">Menu</h2>
+                        <button type="button" class="btn-close" data-bs-dismiss="drawer" aria-label="Close"></button>
                     </div>
-
                     <div class="drawer-body">
                         <ul class="navbar-nav">
-
-                            <li class="nav-item">
-                                <a class="nav-link active"
-                                   aria-current="page"
-                                   href="index.html">
-                                    Home
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="#food-tours">
-                                    Food Tours
-                                </a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class="nav-link" href="contact.html">
-                                    Contact
-                                </a>
-                            </li>
-
+                            <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Home</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#food-tours">Food Tours</a></li>
+                            <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
                         </ul>
                     </div>
                 </dialog>
-
             </div>
         </nav>
     </header>
 
     <main>
-
         <section class="container my-5">
             <h1>Welcome to Taste of Taiwan</h1>
-            <p>
-                Discover the authentic flavours of Taiwan.
-                From traditional street food to delicious
-                desserts, explore the island's unique food culture.
-            </p>
+            <p>Discover the authentic flavours of Taiwan. From traditional street food to delicious desserts, explore the island's unique food culture.</p>
         </section>
 
-
-        <section class="container my-5"
-                 aria-label="Taiwanese food highlights">
-
-            <div id="carouselStacked"
-                 class="carousel slide w-50 mx-auto">
-
-                <div class="d-flex justify-content-between align-items-center">
-
-                    <h2 class="mb-0">
-                        Discover the Flavours of Taiwan
-                    </h2>
-
-                    <div>
-                        <button class="btn-icon btn-sm"
-                                type="button"
-                                data-bs-target="#carouselStacked"
-                                data-bs-slide="prev">
-                            <span class="carousel-icon-prev"
-                                  aria-hidden="true"></span>
-                            <span class="visually-hidden">
-                                Previous
-                            </span>
-                        </button>
-
-                        <button class="btn-icon btn-sm"
-                                type="button"
-                                data-bs-target="#carouselStacked"
-                                data-bs-slide="next">
-                            <span class="carousel-icon-next"
-                                  aria-hidden="true"></span>
-                            <span class="visually-hidden">
-                                Next
-                            </span>
-                        </button>
-                    </div>
-                </div>
-
-                <div class="carousel-inner rounded-5">
-
-                    <div class="carousel-item active">
-                        <img src="images/slide1.jpg"
-                             class="d-block w-100"
-                             alt="A bowl of Taiwanese braised pork rice with savoury pork topping">
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="images/slide2.jpg"
-                             class="d-block w-100"
-                             alt="Traditional Tainan beef soup with sliced beef in broth">
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="images/slide3.jpg"
-                             class="d-block w-100"
-                             alt="A Taiwanese lu wei stall displaying assorted braised tofu, vegetables, and other ingredients">
-                    </div>
-
-                </div>
+       <section class="container my-5" aria-label="Taiwanese food highlights">
+    <div id="carouselStacked" class="carousel slide w-50 mx-auto">
+        <div class="d-flex justify-content-between align-items-center">
+            <h2 class="mb-0">Discover the Flavours of Taiwan</h2>
+            <div>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="prev">
+                    <span class="carousel-icon-prev" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="btn-icon btn-sm" type="button" data-bs-target="#carouselStacked" data-bs-slide="next">
+                    <span class="carousel-icon-next" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
             </div>
-        </section>
-
+        </div>
+        <div class="carousel-inner rounded-5">
+            <div class="carousel-item active">
+                <img src="images/slide1.jpg" class="d-block w-100" alt="Taiwanese braised pork rice">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide2.jpg" class="d-block w-100" alt="Traditional Tainan beef soup">
+            </div>
+            <div class="carousel-item">
+                <img src="images/slide3.jpg" class="d-block w-100" alt="Taiwanese lu wei food stall">
+            </div>
+        </div>
+    </div>
+</section>
 
         <section class="container my-5" id="food-tours">
-
             <h2 class="mb-4">More Taiwanese Food to Explore</h2>
-
             <div class="row g-4">
 
+                <!-- Card 1 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card1.jpg"
-                             class="card-img-top"
-                             alt="A bowl of Taiwanese braised pork rice">
-
+                        <img src="images/card1.jpg" class="card-img-top" alt="A bowl of Taiwanese braised pork rice">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Braised Pork Rice
-                            </h3>
-
-                            <p class="card-text">
-                                A popular Taiwanese comfort food
-                                featuring tender braised pork
-                                served over steamed rice.
-                            </p>
-
+                            <h3 class="card-title">Braised Pork Rice</h3>
+                            <p class="card-text">A popular Taiwanese comfort food featuring tender braised pork served over steamed rice.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Braised Pork Rice, also known
-                                    as Lu Rou Fan, is one of Taiwan's
-                                    most beloved comfort foods.
-                                    Pork is slowly simmered in soy
-                                    sauce, sugar, and aromatic spices
-                                    until tender. This affordable
-                                    dish can be found in night markets
-                                    and traditional restaurants
-                                    throughout Taiwan.
-                                </p>
+                                <p>Braised Pork Rice, also known as Lu Rou Fan, is one of Taiwan's most beloved comfort foods. Pork is slowly simmered in soy sauce, sugar, and aromatic spices until tender. This affordable dish can be found in night markets and traditional restaurants throughout Taiwan.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog1">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog1').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
 
+                <!-- Card 2 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card2.jpg"
-                             class="card-img-top"
-                             alt="A bowl of Tainan beef soup with sliced beef">
-
+                        <img src="images/card2.jpg" class="card-img-top" alt="A bowl of Tainan beef soup with sliced beef">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Tainan Beef Soup
-                            </h3>
-
-                            <p class="card-text">
-                                A famous specialty from Tainan
-                                featuring fresh beef slices
-                                served in a hot, flavourful broth.
-                            </p>
-
+                            <h3 class="card-title">Tainan Beef Soup</h3>
+                            <p class="card-text">A famous specialty from Tainan featuring fresh beef slices served in a hot, flavourful broth.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Tainan Beef Soup is one of the
-                                    city's most iconic local dishes.
-                                    Unlike many other beef soups,
-                                    it uses thinly sliced fresh beef
-                                    that is gently cooked by pouring
-                                    hot broth over it. Tainan is
-                                    especially famous for this dish
-                                    because of its fresh beef supply
-                                    and long-standing food culture.
-                                    Locals often enjoy it for breakfast
-                                    with white rice and ginger
-                                    dipping sauce.
-                                </p>
+                                <p>Tainan Beef Soup is one of the city's most iconic local dishes. Unlike many other beef soups, it uses thinly sliced fresh beef that is gently cooked by pouring hot broth over it. Tainan is especially famous for this dish because of its fresh beef supply and long-standing food culture. Locals often enjoy it for breakfast with white rice and ginger dipping sauce.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog2">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog2').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
 
+                <!-- Card 3 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card3.jpg"
-                             class="card-img-top"
-                             alt="Taiwanese beef noodle soup with braised beef and noodles">
-
+                        <img src="images/card3.jpg" class="card-img-top" alt="Taiwanese beef noodle soup with braised beef and noodles">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Beef Noodle Soup
-                            </h3>
-
-                            <p class="card-text">
-                                A hearty Taiwanese dish combining
-                                tender beef, chewy noodles,
-                                and a rich aromatic broth.
-                            </p>
-
+                            <h3 class="card-title">Beef Noodle Soup</h3>
+                            <p class="card-text">A hearty Taiwanese dish combining tender beef, chewy noodles, and a rich aromatic broth.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Taiwanese Beef Noodle Soup is a
-                                    favourite meal across the island.
-                                    The beef is slowly cooked until
-                                    tender, while the broth is
-                                    flavoured with soy sauce, ginger,
-                                    star anise, and other spices.
-                                    Two popular variations are
-                                    red-braised beef noodles, known
-                                    for their rich flavour, and
-                                    clear beef noodles, which have
-                                    a lighter broth.
-                                </p>
+                                <p>Taiwanese Beef Noodle Soup is a favourite meal across the island. The beef is slowly cooked until tender, while the broth is flavoured with soy sauce, ginger, star anise, and other spices. Two popular variations are red-braised beef noodles, known for their rich flavour, and clear beef noodles, which have a lighter broth.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog3">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog3').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
 
+                <!-- Card 4 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card4.jpg"
-                             class="card-img-top"
-                             alt="Taiwanese taro ball dessert with colourful sweet toppings">
-
+                        <img src="images/card4.jpg" class="card-img-top" alt="Taiwanese taro ball dessert with sweet toppings">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Taro Ball Dessert
-                            </h3>
-
-                            <p class="card-text">
-                                A popular Taiwanese dessert
-                                featuring chewy taro and sweet
-                                potato balls with sweet toppings.
-                            </p>
-
+                            <h3 class="card-title">Taro Ball Dessert</h3>
+                            <p class="card-text">A popular Taiwanese dessert featuring chewy taro and sweet potato balls with sweet toppings.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Taro balls, known as Yu Yuan(芋圓),
-                                    are famous for their soft and
-                                    chewy texture. They can be added
-                                    to many different Taiwanese
-                                    desserts, including shaved ice,
-                                    sweet soups, grass jelly, tofu
-                                    pudding, and red bean desserts.
-                                    They can be enjoyed hot or cold,
-                                    making them popular in every
-                                    season. Customers can mix
-                                    different toppings to create
-                                    their own dessert.
-                                </p>
+                                <p>Taro balls, known as Yu Yuan (芋圓), are famous for their soft and chewy texture. They can be added to many different Taiwanese desserts, including shaved ice, sweet soups, grass jelly, tofu pudding, and red bean desserts. They can be enjoyed hot or cold, making them popular in every season. Customers can mix different toppings to create their own dessert.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog4">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog4').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
 
+                <!-- Card 5 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card5.jpg"
-                             class="card-img-top"
-                             alt="Taiwanese hot pot with meat, vegetables, and broth">
-
+                        <img src="images/card5.jpg" class="card-img-top" alt="Taiwanese hot pot with meat, vegetables, and broth">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Taiwanese Hot Pot
-                            </h3>
-
-                            <p class="card-text">
-                                A popular dining experience
-                                where fresh ingredients are cooked
-                                in simmering broth.
-                            </p>
-
+                            <h3 class="card-title">Taiwanese Hot Pot</h3>
+                            <p class="card-text">A popular dining experience where fresh ingredients are cooked in simmering broth.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Hot pot is an important part
-                                    of Taiwan's dining culture
-                                    and is especially popular for
-                                    gatherings with friends and family.
-                                    Diners can choose from soup bases
-                                    such as spicy mala, milk broth,
-                                    and traditional herbal soup.
-                                    Ingredients commonly include
-                                    thinly sliced beef, seafood,
-                                    vegetables, mushrooms, and tofu.
-                                    Many restaurants offer individual
-                                    pots, allowing everyone to choose
-                                    their favourite flavours.
-                                </p>
+                                <p>Hot pot is an important part of Taiwan's dining culture and is especially popular for gatherings with friends and family. Diners can choose from soup bases such as spicy mala, milk broth, and traditional herbal soup. Ingredients commonly include thinly sliced beef, seafood, vegetables, mushrooms, and tofu. Many restaurants offer individual pots, allowing everyone to choose their favourite flavours.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog5">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog5').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
 
+                <!-- Card 6 -->
                 <div class="col-12 md:col-6 lg:col-4">
-
                     <section class="card h-100">
-
-                        <img src="images/card6.jpg"
-                             class="card-img-top"
-                             alt="A selection of colourful Taiwanese hand-shaken tea drinks">
-
+                        <img src="images/card6.jpg" class="card-img-top" alt="A selection of colourful Taiwanese hand-shaken tea drinks">
                         <div class="card-body">
-
-                            <h3 class="card-title">
-                                Taiwanese Bubble Tea
-                            </h3>
-
-                            <p class="card-text">
-                                Refreshing hand-shaken drinks
-                                featuring milk tea, fruit tea,
-                                and customizable toppings.
-                            </p>
-
+                            <h3 class="card-title">Taiwanese Bubble Tea</h3>
+                            <p class="card-text">Refreshing hand-shaken drinks featuring milk tea, fruit tea, and customizable toppings.</p>
                             <details>
                                 <summary>More Details</summary>
-                                <p>
-                                    Hand-shaken drinks are a major part of everyday
-                                    life in Taiwan. Customers can customize their
-                                    drinks with different sugar levels, ice levels,
-                                    and toppings. According to Taiwan's Ministry of
-                                    Economic Affairs, Taiwan had approximately
-                                    28,788 beverage shops in September 2025,
-                                    including 16,113 hand-shaken drink shops.
-                                    The overall beverage-shop industry generated
-                                    more than NT$130 billion in revenue in 2024,
-                                    highlighting the importance of Taiwan's
-                                    beverage culture and market.
-                                    </p>
+                                <p>Hand-shaken drinks are a major part of everyday life in Taiwan. Customers can customize their drinks with different sugar levels, ice levels, and toppings. According to Taiwan's Ministry of Economic Affairs, Taiwan had approximately 28,788 beverage shops in September 2025, including 16,113 hand-shaken drink shops. The overall beverage-shop industry generated more than NT$130 billion in revenue in 2024, highlighting the importance of Taiwan's beverage culture and market.</p>
                             </details>
-
-                            <button class="btn-solid theme-primary mt-3"
-                                    type="button"
-                                    data-bs-toggle="dialog"
-                                    data-bs-target="#foodDialog6">
-                                Learn More
-                            </button>
-
+                            <button class="btn-solid theme-primary mt-3" type="button" onclick="document.getElementById('foodDialog6').showModal()">Learn More</button>
                         </div>
                     </section>
                 </div>
@@ -452,124 +172,96 @@
             </div>
         </section>
 
-            
-            <!-- Dialog 1 -->
-            <dialog class="dialog" id="foodDialog1" aria-labelledby="foodDialog1Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog1Title">Braised Pork Rice</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        A must-try Taiwanese comfort food!
-                        Braised Pork Rice is known for its rich flavour,
-                        tender pork, and affordable price.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
+        <!-- Dialog 1 -->
+        <dialog class="dialog" id="foodDialog1" aria-labelledby="foodDialog1Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog1Title">Braised Pork Rice</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog1').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>A must-try Taiwanese comfort food! Braised Pork Rice is known for its rich flavour, tender pork, and affordable price.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
-            <!-- Dialog 2 -->
-            <dialog class="dialog" id="foodDialog2" aria-labelledby="foodDialog2Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog2Title">Tainan Beef Soup</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        Visiting Tainan? Try its famous fresh beef soup for breakfast.
-                        It is one of the city's most recognizable food traditions.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
+        <!-- Dialog 2 -->
+        <dialog class="dialog" id="foodDialog2" aria-labelledby="foodDialog2Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog2Title">Tainan Beef Soup</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog2').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>Visiting Tainan? Try its famous fresh beef soup for breakfast. It is one of the city's most recognizable food traditions.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
-            <!-- Dialog 3 -->
-            <dialog class="dialog" id="foodDialog3" aria-labelledby="foodDialog3Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog3Title">Beef Noodle Soup</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        Experience one of Taiwan's favourite noodle dishes,
-                        featuring slow-cooked beef, chewy noodles, and flavourful broth.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
+        <!-- Dialog 3 -->
+        <dialog class="dialog" id="foodDialog3" aria-labelledby="foodDialog3Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog3Title">Beef Noodle Soup</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog3').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>Experience one of Taiwan's favourite noodle dishes, featuring slow-cooked beef, chewy noodles, and flavourful broth.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
-            <!-- Dialog 4 -->
-            <dialog class="dialog" id="foodDialog4" aria-labelledby="foodDialog4Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog4Title">Taro Ball Dessert</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        Enjoy chewy taro balls with shaved ice, sweet soup,
-                        grass jelly, or your favourite Taiwanese dessert toppings.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
+        <!-- Dialog 4 -->
+        <dialog class="dialog" id="foodDialog4" aria-labelledby="foodDialog4Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog4Title">Taro Ball Dessert</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog4').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>Enjoy chewy taro balls with shaved ice, sweet soup, grass jelly, or your favourite Taiwanese dessert toppings.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
-            <!-- Dialog 5 -->
-            <dialog class="dialog" id="foodDialog5" aria-labelledby="foodDialog5Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog5Title">Taiwanese Hot Pot</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        Gather with friends or family and enjoy fresh ingredients
-                        cooked in your favourite hot pot broth.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
+        <!-- Dialog 5 -->
+        <dialog class="dialog" id="foodDialog5" aria-labelledby="foodDialog5Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog5Title">Taiwanese Hot Pot</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog5').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>Gather with friends or family and enjoy fresh ingredients cooked in your favourite hot pot broth.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
-            <!-- Dialog 6 -->
-            <dialog class="dialog" id="foodDialog6" aria-labelledby="foodDialog6Title">
-                <div class="dialog-header">
-                    <h1 class="dialog-title" id="foodDialog6Title">Taiwanese Bubble Tea</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="dialog" aria-label="Close"></button>
-                </div>
-                <div class="dialog-body">
-                    <p>
-                        Discover Taiwan's hand-shaken drink culture.
-                        Choose your favourite tea, sweetness level,
-                        ice level, and toppings.
-                    </p>
-                </div>
-                <div class="dialog-footer">
-                    <button type="button" class="btn-solid theme-secondary" data-bs-dismiss="dialog">Close</button>
-                </div>
-            </dialog>
-
+        <!-- Dialog 6 -->
+        <dialog class="dialog" id="foodDialog6" aria-labelledby="foodDialog6Title">
+            <div class="dialog-header">
+                <h3 class="dialog-title" id="foodDialog6Title">Taiwanese Bubble Tea</h3>
+                <button type="button" class="btn-close" onclick="document.getElementById('foodDialog6').close()" aria-label="Close"></button>
+            </div>
+            <div class="dialog-body">
+                <p>Discover Taiwan's hand-shaken drink culture. Choose your favourite tea, sweetness level, ice level, and toppings.</p>
+            </div>
+            <div class="dialog-footer">
+                <form method="dialog"><button class="btn-solid theme-secondary" type="submit">Close</button></form>
+            </div>
+        </dialog>
 
     </main>
 
-
-    <!-- Footer -->
     <footer class="container my-5">
         <p>&copy; 2026 Taste of Taiwan. All rights reserved.</p>
     </footer>
-
-
-    <!-- Bootstrap 6 JavaScript -->
-    <script type="module"
-            src="js/bootstrap.bundle.min.js"></script>
-
+        <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
+
