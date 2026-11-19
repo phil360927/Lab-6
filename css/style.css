@@ -1,4 +1,3 @@
-
 :root {
     --bs-primary-base: #A94E32;
     --bs-primary-bg: #A94E32;
@@ -11,7 +10,6 @@
     --bs-primary-focus-ring: #D5A08F;
 }
 
-/* Customize solid primary buttons */
 .btn-solid.theme-primary {
     --bs-theme-bg: #A94E32;
     --bs-theme-contrast: #FFFFFF;
